@@ -134,7 +134,7 @@ class Farm:
 
     def check_economics(self):
         print(f"Sold: {round(self.soldEggs, 2)} eggs, {round(self.soldMilk, 2)} liters of milk, {round(self.soldMeat, 2)} kg meat")
-        print(f"Income: {round(self.soldEggs * eggPrice + self.soldMilk * milkPrice + self.soldMeat * meatPrice, 2)} $, Outcome: {round(self.boughtFeed * priceFeed, 2)}")
+        print(f"Income: {round(self.soldEggs * eggPrice + self.soldMilk * milkPrice + self.soldMeat * meatPrice, 2)} $, Outcome: {round(self.boughtFeed * priceFeed, 2)} $")
         
         
 
